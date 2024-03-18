@@ -6,4 +6,6 @@ variable "allow_subnets" {}
 variable "vpc_id" {}
 variable "bastion_cidr" {}
 variable "dns_domain" {}
-
+variable "component" {
+  default = "rabbitmq"
+}
