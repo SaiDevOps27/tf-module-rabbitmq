@@ -66,3 +66,4 @@ resource "aws_security_group" "main" {
     { Name = "rabbitmq-${var.env}" }
   )
 }
+
